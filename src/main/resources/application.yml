@@ -1,1 +1,6 @@
 
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:123456@192.168.56.10:27017/?authSource=admin
+      database: flink
